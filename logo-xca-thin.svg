@@ -1,0 +1,5 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- xca 极简线条：细线矩形 + 细线文字 -->
+  <rect x="30" y="30" width="140" height="140" rx="30" ry="30" fill="none" stroke="#333" stroke-width="1.5"/>
+  <text x="100" y="116" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="56" font-weight="300" fill="#333" letter-spacing="2">xca</text>
+</svg>

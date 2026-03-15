@@ -1,0 +1,14 @@
+{
+  "name": "xca-blog",
+  "version": "1.0.0",
+  "description": "xca 的个人博客",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0",
+    "vue": "^3.4.0"
+  }
+}
