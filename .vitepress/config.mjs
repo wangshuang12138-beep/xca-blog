@@ -29,6 +29,7 @@ export default defineConfig({
         {
           text: '文章列表',
           items: [
+            { text: "xca's pick - 每日音乐故事日记", link: '/posts/music-daily' },
             { text: '决策骰子 - 让 AI 帮你做选择', link: '/posts/decision-dice' },
             { text: '打卡应用 - 习惯养成的可视化工具', link: '/posts/habit-tracker' },
             { text: '博客搭建记录', link: '/posts/first-post' },

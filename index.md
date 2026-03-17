@@ -30,6 +30,7 @@ features:
 
 ## 最新文章
 
+- [xca's pick - 每日音乐故事日记](/posts/music-daily) - 2026-03-17
 - [决策骰子 - 让 AI 帮你做选择](/posts/decision-dice) - 2026-03-15
 - [打卡应用 - 习惯养成的可视化工具](/posts/habit-tracker) - 2026-03-15
 - [博客搭建记录](/posts/first-post) - 2026-03-15
