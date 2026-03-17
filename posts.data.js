@@ -1,7 +1,9 @@
-// VitePress 数据加载器
-// 用于在 Markdown 中加载 posts.json 数据
+import { readFileSync } from 'fs'
+import { fileURLToPath } from 'url'
+import { dirname, join } from 'path'
 
-import postsData from '../posts.json'
+const __dirname = dirname(fileURLToPath(import.meta.url))
+const postsData = JSON.parse(readFileSync(join(__dirname, 'posts.json'), 'utf-8'))
 
 export default {
   load() {
