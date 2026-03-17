@@ -1,0 +1,44 @@
+{
+  "posts": [
+    {
+      "id": "music-daily",
+      "title": "xca's pick - 每日音乐故事日记",
+      "description": "一个人的日常，一首歌的时间。用日期串联故事与音乐。",
+      "date": "2026-03-17",
+      "category": "项目",
+      "link": "/posts/music-daily",
+      "file": "music-daily.md",
+      "tags": ["music", "story", "project"]
+    },
+    {
+      "id": "decision-dice",
+      "title": "决策骰子 - 让 AI 帮你做选择",
+      "description": "一个 AI 驱动的决策辅助工具，帮你轻松做出日常选择。",
+      "date": "2026-03-15",
+      "category": "项目",
+      "link": "/posts/decision-dice",
+      "file": "decision-dice.md",
+      "tags": ["ai", "tool", "project"]
+    },
+    {
+      "id": "habit-tracker",
+      "title": "打卡应用 - 习惯养成的可视化工具",
+      "description": "用可视化日历追踪日常习惯，让坚持变得更有成就感。",
+      "date": "2026-03-15",
+      "category": "项目",
+      "link": "/posts/habit-tracker",
+      "file": "habit-tracker.md",
+      "tags": ["habit", "visualization", "project"]
+    },
+    {
+      "id": "first-post",
+      "title": "博客搭建记录",
+      "description": "如何用 VitePress 搭建一个极简的个人博客。",
+      "date": "2026-03-15",
+      "category": "笔记",
+      "link": "/posts/first-post",
+      "file": "first-post.md",
+      "tags": ["vitepress", "blog", "tutorial"]
+    }
+  ]
+}
