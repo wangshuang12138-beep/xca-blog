@@ -6,7 +6,7 @@
       "description": "一个人的日常，一首歌的时间。用日期串联故事与音乐。",
       "date": "2026-03-17",
       "category": "项目",
-      "link": "/posts/music-daily.html",
+      "link": "/xca-blog/posts/music-daily.html",
       "file": "music-daily.md",
       "tags": ["music", "story", "project"]
     },
@@ -16,7 +16,7 @@
       "description": "一个 AI 驱动的决策辅助工具，帮你轻松做出日常选择。",
       "date": "2026-03-15",
       "category": "项目",
-      "link": "/posts/decision-dice.html",
+      "link": "/xca-blog/posts/decision-dice.html",
       "file": "decision-dice.md",
       "tags": ["ai", "tool", "project"]
     },
@@ -26,7 +26,7 @@
       "description": "用可视化日历追踪日常习惯，让坚持变得更有成就感。",
       "date": "2026-03-15",
       "category": "项目",
-      "link": "/posts/habit-tracker.html",
+      "link": "/xca-blog/posts/habit-tracker.html",
       "file": "habit-tracker.md",
       "tags": ["habit", "visualization", "project"]
     },
@@ -36,7 +36,7 @@
       "description": "如何用 VitePress 搭建一个极简的个人博客。",
       "date": "2026-03-15",
       "category": "笔记",
-      "link": "/posts/first-post.html",
+      "link": "/xca-blog/posts/first-post.html",
       "file": "first-post.md",
       "tags": ["vitepress", "blog", "tutorial"]
     }
