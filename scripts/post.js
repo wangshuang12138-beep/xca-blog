@@ -72,17 +72,17 @@ date: ${today}
     description,
     date: today,
     category: '未分类',
-    link: `/posts/${id}`,
+    link: `/posts/${id}.html`,
     file: filename,
     tags: []
   });
   savePosts(data);
   console.log(`✅ 已添加到 posts.json`);
   
-  console.log('\n🎉 新文章创建完成！');
+  console.log(`\n🎉 新文章创建完成！`);
   console.log(`标题: ${title}`);
   console.log(`文件: ${filepath}`);
-  console.log(`链接: /posts/${id}`);
+  console.log(`链接: /posts/${id}.html`);
   console.log('\n💡 config.mjs 和 index.md 会自动读取新文章，无需额外操作');
 }
 
