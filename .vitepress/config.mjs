@@ -7,14 +7,14 @@ export default defineConfig({
   
   // 站点配置
   head: [
-    ['link', { rel: 'icon', href: '/logo-xca-square.svg' }],
+    ['link', { rel: 'icon', href: 'https://wangshuang12138-beep.github.io/assets/logo-xca-square.svg' }],
     ['meta', { name: 'theme-color', content: '#1a1a1a' }],
   ],
 
   // 主题配置
   themeConfig: {
     // Logo
-    logo: '/logo-xca-square.svg',
+    logo: 'https://wangshuang12138-beep.github.io/assets/logo-xca-square.svg',
     
     // 导航
     nav: [
@@ -27,9 +27,11 @@ export default defineConfig({
     sidebar: {
       '/posts/': [
         {
-          text: '全部文章',
+          text: '文章列表',
           items: [
-            { text: '文章列表', link: '/posts/' },
+            { text: '决策骰子 - 让 AI 帮你做选择', link: '/posts/decision-dice' },
+            { text: '打卡应用 - 习惯养成的可视化工具', link: '/posts/habit-tracker' },
+            { text: '博客搭建记录', link: '/posts/first-post' },
           ]
         }
       ]
