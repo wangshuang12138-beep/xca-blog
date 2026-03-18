@@ -8,6 +8,7 @@ description: 所有博客文章列表
 这里记录我的所有文章，按时间倒序排列。
 
 <script setup>
+import { withBase } from 'vitepress'
 import { data as postsData } from '../posts.data.js'
 
 const sortedPosts = postsData.posts.sort((a, b) => new Date(b.date) - new Date(a.date))
@@ -27,7 +28,7 @@ const years = Object.keys(groupedPosts).sort((a, b) => b - a)
   <h2>{{ year }}</h2>
   
   <div v-for="post in groupedPosts[year]" :key="post.id" class="post-item">
-    <h3><a :href="$withBase(post.link)">{{ post.title }}</a></h3>
+    <h3><a :href="withBase(post.link)">{{ post.title }}</a></h3>
     <p class="post-meta">{{ post.date }} · {{ post.category }}</p>
     <p class="post-desc">{{ post.description }}</p>
   </div>

@@ -29,6 +29,7 @@ features:
 ---
 
 <script setup>
+import { withBase } from 'vitepress'
 import { data as postsData } from './posts.data.js'
 
 const sortedPosts = postsData.posts.sort((a, b) => new Date(b.date) - new Date(a.date))
@@ -38,7 +39,7 @@ const sortedPosts = postsData.posts.sort((a, b) => new Date(b.date) - new Date(a
 
 <ul>
   <li v-for="post in sortedPosts" :key="post.id">
-    <a :href="$withBase(post.link)">{{ post.title }}</a> - {{ post.date }}
+    <a :href="withBase(post.link)">{{ post.title }}</a> - {{ post.date }}
   </li>
 </ul>
 
