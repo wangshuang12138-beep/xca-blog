@@ -38,7 +38,7 @@ const sortedPosts = postsData.posts.sort((a, b) => new Date(b.date) - new Date(a
 
 <ul>
   <li v-for="post in sortedPosts" :key="post.id">
-    <a :href="post.link">{{ post.title }}</a> - {{ post.date }}
+    <a :href="$withBase(post.link)">{{ post.title }}</a> - {{ post.date }}
   </li>
 </ul>
 

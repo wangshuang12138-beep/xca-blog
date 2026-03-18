@@ -27,7 +27,7 @@ const years = Object.keys(groupedPosts).sort((a, b) => b - a)
   <h2>{{ year }}</h2>
   
   <div v-for="post in groupedPosts[year]" :key="post.id" class="post-item">
-    <h3><a :href="post.link">{{ post.title }}</a></h3>
+    <h3><a :href="$withBase(post.link)">{{ post.title }}</a></h3>
     <p class="post-meta">{{ post.date }} · {{ post.category }}</p>
     <p class="post-desc">{{ post.description }}</p>
   </div>
